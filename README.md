@@ -15,9 +15,9 @@ The Terraform configuration deploys the following resources:
 8. Application Load Balancer: Distributing traffic between the EC2 instances.
 
 Pre-requisites:
-> Terraform installed on your machine.
-> AWS account and IAM user with the necessary permissions.
-> AWS CLI configured with your AWS credentials.
+# Terraform installed on your machine.
+# AWS account and IAM user with the necessary permissions.
+# AWS CLI configured with your AWS credentials.
 
 Configure AWS CLI:
   Set up the AWS CLI with your credentials.
@@ -26,11 +26,11 @@ Set Up Your Project Directory:
   Create a directory for your Terraform project and navigate into it.
 
 Create Terraform Configuration Files:
- > main.tf: The main configuration file where you define the resources you want to create.
- > variables.tf: Defines the input variables for your Terraform configuration.
- > outputs.tf: Defines the outputs of your Terraform configuration.
- > provider.tf: Specifies the provider (AWS in this case) and any provider-specific configurations.
- > terraform. tfvars: Defines the values for the input variables.
+ # main.tf: The main configuration file where you define the resources you want to create.
+ # variables.tf: Defines the input variables for your Terraform configuration.
+ # outputs.tf: Defines the outputs of your Terraform configuration.
+ # provider.tf: Specifies the provider (AWS in this case) and any provider-specific configurations.
+ # terraform. tfvars: Defines the values for the input variables.
 
 Initialize Terraform:
   Initialize the Terraform working directory. This step downloads the provider plugins and sets up the backend for storing the state.
